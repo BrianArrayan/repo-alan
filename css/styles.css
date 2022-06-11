@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Nav*/
+#navbar{
+    background-color: #121212;
+    width: 100%;
+    height: 100px;
+}
+.navbar-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-code-partner{
+    width: 150px;
+    margin-top: 30px;
+}
+.nav{
+    margin-top: 35px;   
+}
+.nav li{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #C8C7C7;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.ver-cursos{
+    background-color: #06BADA;
+    width: 8%;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 30px;
+}
+.ver-cursos a{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+/*Home*/
+#home{
+    background-color: #121212;
+    width: 100%;
+    height: 800px;
+}
+.home-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home-1{
+    line-height: 40px;
+    height: 201px;
+    width: 266px;
+}
+.home-1 h1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+}
+.home-1 span{
+    color: #06BADA;
+}
+.line{
+    width: 80px;
+    height: 5px;
+    background-color: #06BADA;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home-1 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.ver-cursos-home{
+    background-color: #06BADA;
+    width: 50%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.ver-cursos-home a{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.home-1 h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #848484;
+    font-size: 12px;
+}
+.img-home{
+    margin-top: 50px;
+    width: 47vh;
+}
+
+/*Sección Uno*/
+.contenedor-s2 {
+    background-color: #00D9FF;
+    width: 95%;
+    margin: 3rem;
+    margin-top: 10%;
+}
+.contenedor-s2 .contenedor-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor-s2 .contenedor-cards .card{
+    margin: 2rem;
+}
+.contenedor-s2 .contenedor-cards .card img{
+    width: auto;
+}
+.contenedor-s2 .contenedor-cards .card h2{
+    font-size: 2.5vh;
+    font-family: "Inter", sans-serif;
+}
+.contenedor-s2 .contenedor-cards .card p{
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    width: 20rem;
+}
+
+/* Sección Dos */
+#seccion-dos{
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Inter", sans-serif;
+}
+.seccion-parte-1{
+    margin-left: 10%;
+}
+#seccion-dos h1{
+    font-size: 25px;
+    color: #06BADA;
+    margin-bottom: 10px;
+    margin-top: 13%;
+}
+#seccion-dos p{
+    color: white;
+    font-size: 15px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+#seccion-dos h3{
+    color: #848484;
+    font-size: 13px;
+}
+.seccion-parte-2{
+    margin-right: 13%;
+    margin-top: 1%;
+}
+.aprendizaje{
+    width: 300px;
+    height: 300px;
+}
+  
+/* Sección Tres */
+#seccion-tres{
+    font-family: "Inter", sans-serif;
+    background-color: #262424;
+    width: 100%;
+    height: 430px;
+}
+.seccion-tres-titulo{
+    text-align: center;
+    color: #00D9FF;
+    font-size: 25px;
+}
+.seccion-tres-flex{
+    margin-top: 50px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.seccion-tres-flex h1{
+    font-size: 25px;
+    color: #06BADA;
+    margin-top: 1%;
+}
+.seccion-tres-flex p{
+    color: white;
+    margin-top: 1%;
+    font-size: 15px;
+    width: 50%;
+}
+.seccion-tres-flex p span{
+    color: #06BADA;
+    font-size: 15px;
+}
+.seccion-tres-flex h3{
+    color: #848484;
+    margin-top: 1%;
+    font-size: 13px;
+}
+.seccion-tres-parte-1{
+    margin-left: 0%;
+    margin-top: 50px;
+}
+.seccion-tres-parte-2{
+    margin-right: 3%;
+    margin-top: -2%;
+}
+.comunidad{
+    width: 350px;
+    height: 350px;
+}
+
+/* Seccion cuatro*/
+#seccion-cuatro{
+    background-color: #1C1B1B;
+    width: 100%;
+    height: 750px;
+}
+#seccion-cuatro h1{
+    color: #00D9FF;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+}
+.seccion-cuatro-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.seccion-card-uno{
+    background-color: #4F4747;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+}
+.seccion-cuatro-flex h5{
+    color: #06BADA;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+.front{
+    margin-left: 15%;
+}
+.marketing{
+    width: 25vh;
+    margin-left: 25%;
+}
+.seccion-cuatro-flex h4{
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+.seccion-cuatro-flex p{
+    color: #CDC4C4;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.empezar{
+    background-color: #06BADA;
+    width: 30%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 110px;
+    margin-top: 10%;
+}
+.empezar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.seccion-card-dos{
+    background-color: #4F4747;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+}
+.proximamente{
+    background-color: #06BADA;
+    width: 30%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 110px;
+    margin-top: 10%;
+}
+.proximamente a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+/*Footer*/
+#footer{
+    background-color: #121212;
+    color: white;
+    width: 100%;
+    height: 250px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-footer img{
+    width: 250px;
+    margin: 20px;
+}
+.flex-footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.flex-footer ul li{
+    list-style: none;
+    font-size: 14px;
+    margin: 10px;
+    margin: 20px;
+}
+.flex-footer ul li a{
+    text-decoration: none;
+    color: #C8C7C7;
+}
+.flex-footer span{
+    color: #00D9FF;
+}
+.flex-footer h1{
+    font-size: 16px;
+    width: 200px;
+    margin: 20px;
+}
+.flex-footer input{
+    background-color: #3E3D3D;
+    width: 176px;
+    height: 27px;
+    color: #9F9797;
+}
+.busqueda{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*Seccion cursos Uno (Cursos.html)*/
+#seccion-cursos-uno{
+    background-color: #121212;
+    width: 100%;
+    height: 2200px;
+}
+.seccion-cursos-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.seccion-cursos-flex h1{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #00D9FF;
+    margin: 10px;
+    margin-top: 30px;
+}
+.seccion-cursos-flex h2{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #00D9FF;
+    margin: 10px;
+}
+.seccion-cursos-flex h3{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin: 10px;
+}
+.ir-al-curso{
+    background-color: #06BADA;
+    width: 35%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.ir-al-curso a{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.img-modulos{
+    width: 45vh;
+    margin: 10px;
+}
+
+/*Seccion Cursos Dos*/
+#seccion-cursos-dos{
+    background-color: #06BADA;
+    width: 88%;
+    height: 500px;
+    margin: 6%;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
+#seccion-cursos-dos h1{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    padding: px;
+    margin: 70px;
+}
+#seccion-cursos-dos p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 5px;
+    margin: 70px;
+    height: 100px;
+    width: 300px;
+    left: 561px;
+}
+.modulo-1{
+    background-color: #00D9FF;
+    width: 15%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 75px;
+    margin-bottom: 80px;
+}
+.modulo-1 a{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.modulo-img{
+    width: 50vh;
+    margin-left: 80%;
+}
+
+/*Modulos*/
+#modulos{
+    background-color: #262424;
+    width: 100%;
+    height: 1150px;
+}
+#modulos h1{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#modulos h2{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.videos-flex{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+/*Nosotros (Nosotros.html)*/
+#seccion-nosotros{
+    background-color: #000000;
+    width: 100%;
+    height: 900px;
+}
+#seccion-nosotros h1{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    height: 201px;
+    width: 648px;
+    margin-left: 28%;
+}
+#seccion-nosotros span{
+    color: #00D9FF;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+#seccion-nosotros p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    height: 44px;
+    width: 611px;
+    left: 406px;
+    margin-left: 30%;
+}
+.nosotros-flex-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.img-nosotros{
+    width: 50px;
+    height: 50px;
+
+}
